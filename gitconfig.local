@@ -2,6 +2,7 @@
   ai    = add --interactive
   alias = config --get-regexp ^alias\\.
   b     = branch
+  bc    = browse -- commits
   cam   = commit --amend -m
   cane  = commit --amend --no-edit
   capf  = !git commit --amend --no-edit && git push --force-with-lease

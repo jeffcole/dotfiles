@@ -19,9 +19,6 @@ alias iexm='iex -S mix'
 alias iexmt='iex -S mix test'
 alias iexp='iex -S mix phx.server'
 
-alias hb='hub browse'
-alias hbc='hub browse -- commits'
-
 alias m='mix'
 alias mc='mix credo --strict'
 alias mtc='mix test --cover'
