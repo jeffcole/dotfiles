@@ -19,9 +19,9 @@
   el    = git reset --soft HEAD^ # edit last - follow with `cl`
   fu    = commit --fixup
   l     = log --oneline --decorate --color
-  lag   = log --oneline --decorate --all --graph
+  lag   = l --all --graph
   last  = log -1 HEAD
-  lup   = log ..@{u} # log commits on upstream branch not on current branch
+  linc  = l ..@{u} # incoming commits on upstream branch not on current branch
   me    = log --author='Jeff Cole'
   rb    = rebase
   rbc   = rebase --continue
