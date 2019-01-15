@@ -67,6 +67,11 @@ alias yt='yarn test'
 
 alias wds='webpack-dev-server'
 
+# Directory shortcuts
+
+alias dotdir='cd $PROJECTS/Jeff/code/dotfiles-local'
+alias tdotdir='cd $PROJECTS/Jeff/code/dotfiles'
+
 # Editor shortcuts
 
 alias ae='$EDITOR $HOME/.aliases.extra'
