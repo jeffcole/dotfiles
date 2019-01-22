@@ -2,6 +2,7 @@
   "atom-beautify":
     general: {}
   "atom-ctags": {}
+  "atom-elixir-formatter": {}
   "autocomplete-plus":
     enableAutoActivation: false
     includeCompletionsFromAllBuffers: false
