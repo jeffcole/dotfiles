@@ -32,7 +32,7 @@
     telemetryConsent: "limited"
     themes: [
       "atom-dark-ui"
-      "atom-dark-syntax"
+      "solarized-dark-syntax"
     ]
     titleBar: "custom"
   date:
