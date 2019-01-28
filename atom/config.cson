@@ -11,7 +11,6 @@
   core:
     audioBeep: false
     disabledPackages: [
-      "elmjutsu"
       "exception-reporting"
       "language-haml"
       "linter-write-good"
@@ -48,10 +47,6 @@
     autocompleteFuzzyFilteringEnabled: true
     autocompleteSnippetsEnabled: true
     cacheDirectory: "/var/folders/zl/k42vwnzn4k304yvfxwztjsl00000gn/T/elmjutsu18500B070yRkXpcaW"
-    elmExecPath: "node_modules/.bin/elm"
-    elmMakeExecPath: "node_modules/.bin/elm-make --warn"
-    elmPackageExecPath: "node_modules/.bin/elm-package"
-    elmReplExecPath: "node_modules/.bin/elm-repl"
     globalAutocompleteEnabled: true
     showDocCommentsInSidekick: false
     showScopeBar: true
