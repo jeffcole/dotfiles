@@ -14,8 +14,6 @@
       "elmjutsu"
       "exception-reporting"
       "language-haml"
-      "linter"
-      "linter-ui-default"
       "linter-write-good"
       "pigments"
     ]
@@ -77,12 +75,12 @@
   "language-elm":
     autocompleteEnabled: false
   "linter-ui-default":
-    panelHeight: 60
+    panelHeight: 300
   "merge-conflicts": {}
   "prettier-atom":
     formatOnSaveOptions:
       enabled: true
-      isDisabledIfNotInPackageJson: true
+      isDisabledIfNotInPackageJson: false
     useEslint: true
   "ruby-test":
     rspecAllCommand: "source ~/.zshrc && spring rspec --tty"
