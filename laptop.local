@@ -28,6 +28,7 @@ cask "postman"
 cask "slack"
 cask "spectacle"
 cask "transmission"
+cask "visual-studio-code"
 cask "vlc"
 EOF
 
