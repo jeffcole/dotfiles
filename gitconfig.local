@@ -42,15 +42,18 @@
 [apply]
   whitespace = nowarn
 [core]
-  editor = atom --wait
+  editor = code --wait
 [credential]
   helper = osxkeychain
 [diff]
   compactionHeuristic = true
+  tool = code-diff
+[difftool "code-diff"]
+  cmd = code --wait --diff $LOCAL $REMOTE
 [hub]
   protocol = https
 [merge]
-  tool = opendiff
+  tool = code
 [mergetool]
   keepBackup = false
 [pager]
