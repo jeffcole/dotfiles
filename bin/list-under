@@ -1,0 +1,8 @@
+#!/bin/sh
+
+set -e
+
+find . \
+  -not \( -path "*/node_modules" -prune \) \
+  -iname $1 \
+  -exec ls -ahl {} +
