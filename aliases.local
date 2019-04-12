@@ -8,7 +8,7 @@ alias ct='ctags -R .'
 alias et='elm-test'
 alias etw='elm-test --watch'
 
-alias f='find . -iname'
+alias f='find . -not \( -path "*/node_modules" -prune \) -iname'
 
 alias hk='heroku'
 alias hkl='heroku local'
