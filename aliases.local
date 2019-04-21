@@ -5,6 +5,7 @@ alias be='bundle exec'
 alias copy-ssh-key='pbcopy < ~/.ssh/id_rsa.pub'
 alias ct='ctags -R .'
 
+alias ea='elm-analyse -s -p 3379'
 alias er='elm repl'
 alias et='elm-test'
 alias etw='elm-test --watch'
