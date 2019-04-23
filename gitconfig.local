@@ -34,6 +34,7 @@
   shl   = stash list
   shp   = stash --patch
   shpop = stash pop
+  shshow = stash show -p
   to    = checkout --ours --   # take ours
   tt    = checkout --theirs -- # take theirs
   us    = reset HEAD      # unstage
