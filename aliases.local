@@ -58,7 +58,7 @@ alias ss='spring stop'
 alias t='tig'
 alias tinc='tig ..@{u}' # Incoming commits on upstream not on current
 
-alias ta='test_all'
+alias ta='test-all'
 alias tree='tree -C'
 
 alias y='yarn'
