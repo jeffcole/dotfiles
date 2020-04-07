@@ -84,6 +84,7 @@ alias dot='$EDITOR $PROJECTS/jeff/code/dotfiles-local'
 alias laptop='$EDITOR $PROJECTS/jeff/code/laptop'
 alias sheets='$EDITOR $HOME/GoogleDrive/Dev/cheat-sheets'
 alias sync-settings='$EDITOR $HOME/Library/Application Support/Code/User/syncLocalSettings.json'
+alias ssh-config='$EDITOR $HOME/.ssh/config'
 alias tdot='$EDITOR $PROJECTS/jeff/code/dotfiles'
 alias til='$EDITOR $PROJECTS/jeff/code/til'
 
