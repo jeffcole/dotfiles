@@ -1,0 +1,29 @@
+# From https://github.com/arcticicestudio/igloo/pull/90/commits/b999307e695a201f96fad9f7283341e06ff9f11d
+
+# Implement diff-so-fancy script for use without Git
+
+# "diff-so-fancy" (1) has been designed to work within Git controlled
+# directories. To allow to use it to compare files that are not controlled
+# by Git the "--no-index" (2) option of "git-diff" has been used.
+
+# The script pipes the output to "less" using the options
+
+# * "-R, --RAW-CONTROL-CHARS" to only display ANSI "color" escape
+#   sequences in "raw" form
+# * "-F, --quit-if-one-screen" to automatically exit if the entire file
+#   can be displayed on the first screen.
+# * "-X, --no-init" to disable sending the termcap (de)initialization
+#   strings to the terminal to avoid unnecessary operations like clearing the screen.
+# * "-x2, --tabs=2" to use two tab stops.
+
+# References:
+
+#   * so-fancy/diff-so-fancy#220 (comment)
+#   (1) https://github.com/so-fancy/diff-so-fancy
+#   (2) https://git-scm.com/docs/git-diff#git-diff-emgitdiffem--no-index--options--ltpathgt823082
+
+dsf() {
+  if [ "$#" -eq 2 ]; then
+    git diff --no-index --color "$@" | diff-so-fancy | less -RFXx2
+  fi
+}
