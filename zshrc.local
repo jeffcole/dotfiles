@@ -15,5 +15,7 @@ export PATH="/usr/local/bin:$PATH"
 source $HOME/.asdf/asdf.sh
 source $HOME/.asdf/completions/asdf.bash
 
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
 # Include configuration not tracked in source control
 [[ -f ~/.zshrc.extra ]] && source ~/.zshrc.extra
