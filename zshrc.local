@@ -12,8 +12,12 @@ export PATH="$HOME/.bin:$PATH"
 # Recommended by brew doctor
 export PATH="/usr/local/bin:$PATH"
 
-source $HOME/.asdf/asdf.sh
-source $HOME/.asdf/completions/asdf.bash
+# Append asdf completions to fpath
+fpath=(${ASDF_DIR}/completions $fpath)
+
+# Initialise completions with ZSH's compinit
+autoload -Uz compinit
+compinit
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
