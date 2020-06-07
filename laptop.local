@@ -2,7 +2,6 @@
 
 brew bundle --file=- <<EOF
 brew "awscli"
-brew "diff-so-fancy"
 brew "direnv"
 brew "exercism"
 brew "pow"
