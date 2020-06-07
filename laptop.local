@@ -4,6 +4,7 @@ brew bundle --file=- <<EOF
 brew "awscli"
 brew "direnv"
 brew "exercism"
+brew "git-delta"
 brew "pow"
 brew "sqlparse"
 brew "tig"

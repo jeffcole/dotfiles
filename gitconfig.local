@@ -44,6 +44,7 @@
   whitespace = nowarn
 [core]
   editor = code --wait
+  pager = delta --dark --highlight-removed
 [credential]
   helper = osxkeychain
 [diff]
@@ -53,6 +54,8 @@
   cmd = code --wait --diff $LOCAL $REMOTE
 [hub]
   protocol = https
+[interactive]
+  diffFilter = delta --color-only --dark --highlight-removed
 [merge]
   tool = code
 [mergetool]
