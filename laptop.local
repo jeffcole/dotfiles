@@ -2,6 +2,7 @@
 
 brew bundle --file=- <<EOF
 brew "awscli"
+brew "bat"
 brew "direnv"
 brew "exercism"
 brew "git-delta"
