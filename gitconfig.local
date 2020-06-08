@@ -32,6 +32,7 @@
   shd   = stash drop
   shki  = stash --keep-index
   shl   = stash list
+  shm   = stash push -m
   shp   = stash --patch
   shpop = stash pop
   shshow = stash show -p
