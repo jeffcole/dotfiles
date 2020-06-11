@@ -34,7 +34,6 @@ EOF
 
 fancy_echo "Cleaning up old Homebrew formulae ..."
 brew cleanup
-brew cask cleanup
 
 yarn global add pure-prompt
 
