@@ -61,6 +61,8 @@
   tool = code
 [mergetool]
   keepBackup = false
+[pull]
+  ff = only
 [user]
 	email = jeffreydonaldcole@gmail.com
 	name  = Jeff Cole
