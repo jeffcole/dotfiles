@@ -30,6 +30,7 @@ cask "tableplus"
 cask "transmission"
 cask "visual-studio-code"
 cask "vlc"
+cask "whatsapp"
 EOF
 
 fancy_echo "Cleaning up old Homebrew formulae ..."
