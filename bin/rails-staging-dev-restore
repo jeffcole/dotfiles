@@ -8,4 +8,4 @@ rake db:drop db:create
 
 pg_restore --verbose --clean --no-acl --no-owner  -h localhost \
   -U postgres -d $project_name-development \
-  ../../data/$project_name/staging-latest.dump
+  .data/staging-latest.dump

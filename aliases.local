@@ -72,21 +72,21 @@ alias wds='webpack-dev-server'
 
 # Directory shortcuts
 
-alias dotdir='cd $PROJECTS/Jeff/code/dotfiles-local'
-alias tdotdir='cd $PROJECTS/Jeff/code/dotfiles'
+alias dotdir='cd $PROJECTS/Jeff/dotfiles-local'
+alias tdotdir='cd $PROJECTS/Jeff/dotfiles'
 
 # Editor shortcuts
 
 alias ae='$EDITOR $HOME/.aliases.extra'
 alias books='$EDITOR $HOME/GoogleDrive/Dev/books'
 alias dev-notes='$EDITOR $HOME/GoogleDrive/Dev/notes'
-alias dot='$EDITOR $PROJECTS/jeff/code/dotfiles-local'
-alias laptop='$EDITOR $PROJECTS/jeff/code/laptop'
+alias dot='$EDITOR $PROJECTS/jeff/dotfiles-local'
+alias laptop='$EDITOR $PROJECTS/jeff/laptop'
 alias sheets='$EDITOR $HOME/GoogleDrive/Dev/cheat-sheets'
 alias sync-settings='$EDITOR $HOME/Library/Application Support/Code/User/syncLocalSettings.json'
 alias ssh-config='$EDITOR $HOME/.ssh/config'
-alias tdot='$EDITOR $PROJECTS/jeff/code/dotfiles'
-alias til='$EDITOR $PROJECTS/jeff/code/til'
+alias tdot='$EDITOR $PROJECTS/jeff/dotfiles'
+alias til='$EDITOR $PROJECTS/jeff/til'
 
 # Include aliases not tracked in source control
 [[ -f ~/.aliases.extra ]] && source ~/.aliases.extra

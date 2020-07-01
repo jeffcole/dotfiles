@@ -5,10 +5,8 @@ set -e
 if [ -z "$1" ]; then
   echo "Specify an environment (staging|production)"
 else
-  project_name="$(basename $PWD)"
-
   $1 backup
 
-  curl -o ../../data/$project_name/$1-latest.dump \
+  curl -o .data/$1-latest.dump \
     `$1 pg:backups public-url`
 fi
