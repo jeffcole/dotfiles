@@ -63,6 +63,8 @@
   keepBackup = false
 [pull]
   ff = only
+[remote "origin"]
+  fetch = +refs/pull/*/head:refs/remotes/origin/pull/*
 [user]
 	email = jeffreydonaldcole@gmail.com
 	name  = Jeff Cole
