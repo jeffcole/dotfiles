@@ -12,6 +12,7 @@ brew "tree"
 brew "unrar"
 brew "watch"
 brew "zsh-syntax-highlighting"
+brew "xsv"
 
 cask "anki"
 cask "calibre"
