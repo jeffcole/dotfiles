@@ -16,6 +16,7 @@
   ds    = diff --stat
   db    = diff master..HEAD
   dbca  = diff master...HEAD # diff branch from common ancestor
+  dnp    = --no-pager diff
   el    = git reset --soft HEAD^ # edit last - follow with `cl`
   fu    = commit --fixup
   l     = log --oneline --decorate --color
