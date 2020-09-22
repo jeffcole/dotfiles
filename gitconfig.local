@@ -10,6 +10,7 @@
   cm    = commit -m
   cob   = checkout -b
   cop   = checkout -p
+  copsh = checkout -p stash@{0}
   d     = diff
   dc    = diff --cached
   dn    = diff --name-status
