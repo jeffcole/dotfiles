@@ -6,7 +6,7 @@
   cam   = commit --amend -m
   cane  = commit --amend --no-edit
   capf  = !git commit --amend --no-edit && git push --force-with-lease
-  cl    = git commit -c ORIG_HEAD # commit last - precede with `el`
+  cl    = commit -c ORIG_HEAD # commit last - precede with `el`
   cm    = commit -m
   cob   = checkout -b
   cop   = checkout -p
@@ -18,7 +18,7 @@
   db    = diff master..HEAD
   dbca  = diff master...HEAD # diff branch from common ancestor
   dnp    = --no-pager diff
-  el    = git reset --soft HEAD^ # edit last - follow with `cl`
+  el    = reset --soft HEAD^ # edit last - follow with `cl`
   fu    = commit --fixup
   l     = log --oneline --decorate --color
   lag   = l --all --graph
