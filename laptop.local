@@ -16,6 +16,7 @@ brew "xsv"
 brew "zsh-syntax-highlighting"
 
 cask "anki"
+cask "au-lab"
 cask "calibre"
 cask "cyberduck"
 cask "docker"
