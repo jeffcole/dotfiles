@@ -19,6 +19,7 @@
   dbca  = diff master...HEAD # diff branch from common ancestor
   dnp    = --no-pager diff
   el    = reset --soft HEAD^ # edit last - follow with `cl`
+  f     = fuzzy
   fu    = commit --fixup
   l     = log --oneline --decorate --color
   lag   = l --all --graph

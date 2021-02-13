@@ -7,6 +7,10 @@ export PROJECTS=~/Dev
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+# Homebrew installation not yet supported
+# See https://github.com/bigH/git-fuzzy/issues/3
+export PATH="$PROJECTS/Jeff/git-fuzzy/bin:$PATH"
+
 export PATH="$HOME/.bin:$PATH"
 
 # Recommended by brew doctor
