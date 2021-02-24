@@ -20,6 +20,7 @@
   dnp    = --no-pager diff
   el    = reset --soft HEAD^ # edit last - follow with `cl`
   f     = fuzzy
+  fl    = !git fuzzy log | pbcopy
   fu    = commit --fixup
   fur   = fixup-rebase
   l     = log --oneline --decorate --color
