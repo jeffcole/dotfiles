@@ -21,6 +21,7 @@
   el    = reset --soft HEAD^ # edit last - follow with `cl`
   f     = fuzzy
   fu    = commit --fixup
+  fur   = fixup-rebase
   l     = log --oneline --decorate --color
   lag   = l --all --graph
   last  = log -1 HEAD
