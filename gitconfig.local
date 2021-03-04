@@ -46,6 +46,7 @@
   tt    = checkout --theirs -- # take theirs
   us    = reset HEAD      # unstage
   usa   = reset HEAD * .* # unstage all
+  usp   = reset -p        # unstage interactively
   ut    = rm --cached     # untrack
 [apply]
   whitespace = nowarn
