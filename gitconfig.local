@@ -41,6 +41,7 @@
   shp   = stash --patch
   shpop = stash pop
   shshow = stash show -p
+  split = reset HEAD^ # use upon an "edit" step in an interactive rebase
   to    = checkout --ours --   # take ours
   tt    = checkout --theirs -- # take theirs
   us    = reset HEAD      # unstage
