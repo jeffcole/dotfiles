@@ -17,7 +17,6 @@
   ds    = diff --stat
   db    = diff master..HEAD
   dbca  = diff master...HEAD # diff branch from common ancestor
-  dnp    = --no-pager diff
   el    = reset --soft HEAD^ # edit last - follow with `cl`
   f     = fuzzy
   fl    = !git fuzzy log | pbcopy
@@ -28,6 +27,7 @@
   last  = log -1 HEAD
   linc  = l ..@{u} # incoming commits on upstream branch not on current branch
   me    = log --author='Jeff Cole'
+  npd   = --no-pager diff
   rb    = rebase
   rbc   = rebase --continue
   rbi   = rebase -i
