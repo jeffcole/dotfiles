@@ -17,7 +17,7 @@
   ds    = diff --stat
   db    = diff master..HEAD
   dbca  = diff master...HEAD # diff branch from common ancestor
-  el    = reset --soft HEAD^ # edit last - follow with `cl`
+  el    = reset --soft HEAD^ # edit last - useful for removing changes, follow with `cl`
   f     = fuzzy
   fl    = !git fuzzy log | pbcopy
   fu    = commit --fixup
